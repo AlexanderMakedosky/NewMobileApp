@@ -1,5 +1,5 @@
 import { useNavigation } from "@react-navigation/native";
-import { View, Text, ScrollView, StatusBar, Image, StyleSheet, Modal, TouchableOpacity } from "react-native";
+import { View, Text, ScrollView, Image, StyleSheet, TouchableOpacity } from "react-native";
 
 type Props = {
   route: any,

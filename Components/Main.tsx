@@ -1,4 +1,4 @@
-import { View, Text, ScrollView, StatusBar, Image, StyleSheet, Modal, TouchableOpacity } from "react-native";
+import { View, ScrollView, StyleSheet } from "react-native";
 import { useAppDispatch, useAppSelector } from "./app/hooks";
 import { useEffect } from "react";
 import * as actions from './features/imagesSlicer';

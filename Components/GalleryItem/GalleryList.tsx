@@ -6,10 +6,7 @@ type Props = {
   images: UnsplashPhoto[],
 }
 
-export const GalleryList: React.FC<Props> = ({
-  images,
-  // navigation
-}) => {
+export const GalleryList: React.FC<Props> = ({ images }) => {
   return (
     <View style={styles.container}>
       <FlatList data={images} renderItem={({ item }) => (

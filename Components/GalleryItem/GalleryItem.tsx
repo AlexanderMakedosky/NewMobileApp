@@ -1,6 +1,5 @@
 import React from 'react';
 import { View, Image, Text, StyleSheet, TouchableOpacity } from 'react-native';
-// import { withNavigation } from 'react-navigation';
 import { UnsplashPhoto } from '../../types/Image';
 import { useNavigation } from '@react-navigation/native';
 
